@@ -127,7 +127,7 @@ contract BloodBank {
 
         PatientRecord[index].bT.push(txObj);
 
-        // Note: above statement can also be written like below statement;
+        // Note: above statement can also be written as:
         // PatientRecord[index].bT.push(BloodTransaction(_type, block.timestamp,_from,_to));
 
         emit Successfull(
