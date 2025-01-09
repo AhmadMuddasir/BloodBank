@@ -11,6 +11,7 @@ contract BloodBank {
     }
 
     // Used for defining PatientType
+//the patient should be either donor or receiver
     enum PatientType {
         Donor,
         Receiver
